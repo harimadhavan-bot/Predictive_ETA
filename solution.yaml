@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: shipment-eta-agent
+  version: 1.0.0
+  description: Python AI agent for transportation planners — predicts shipment ETA using SAP AI Core RPT1.5
+
+assets:
+  - ref: ./assets/eta-prediction-agent/asset.yaml
